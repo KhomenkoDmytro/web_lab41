@@ -1,0 +1,31 @@
+body{
+    padding: 0px 80px;
+    margin: 0px 0px;
+    color:maroon;
+}
+
+.header{
+
+    padding: 0px;
+    margin:0px;
+    width:100%;
+}
+.header h1{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+nav>ul{
+    display:flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+nav>ul>li{
+    width: 250px;
+    text-align: center;
+}
+main{
+    min-height: 2000px;
+}
